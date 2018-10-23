@@ -5,12 +5,19 @@
  */
 package cms.controller;
 
+import ado.ProdutoADO;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import model.Produto;
+import org.json.simple.JSONObject;
+import org.json.simple.JsonArray;
 
 /**
  *
@@ -31,14 +38,31 @@ public class GeraDadosServlet extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("Produto 1");
-            out.println("Produto 2");
-            
-            
-            
-            
-            
+
+            ProdutoADO prodA = new ProdutoADO();
+
+            try {
+
+                List<Produto> listaProduto = prodA.listaTodos();
+                JSONObject pai = new JSONObject();
+                JSONObject dados;
+                JsonArray filhos = new JsonArray();
+
+                for (Produto p : listaProduto) {
+
+                    dados = new JSONObject();
+                    dados.put("idProduto", p.getIdProduto());
+                    dados.put("nomeProduto", p.getProdutoNm());
+                    filhos.add(dados);
+                }
+
+                pai.put("data", filhos);
+                out.print(pai);
+
+            } catch (Exception ex) {
+                out.print("ERRO no Servlet");
+            }
+
         }
     }
 

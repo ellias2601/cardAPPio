@@ -125,8 +125,8 @@
            url:"dados"
         }).done(function (data) {
             
-            alert(data);
-            //como tratar a variavel data? JSON?
+            dados = JSON.parse(data);
+            
         });
         
       }
