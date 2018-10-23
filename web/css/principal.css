@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/09/2018, 08:25:11
+    Author     : ellias
+*/
+
+body{
+    
+    margin: 0px;
+    background-color: #721c24;
+   
+    
+}
+
+@font-face{
+     
+    font-family: HEINEKEN;
+    src:url(HEINEKEN.TTF);
+}
+
+@font-face{
+     
+    font-family: renaissance;
+    src:url(renaissance.ttf);
+}
+
+
+.logo{
+    
+    font-size: medium;
+    font-family: HEINEKEN;
+    border-radius: 30px 30px 30px 0px;
+    padding: 5px 10px;
+    border: 2px solid #f2c32f;
+    background-color: #d9082f;
+    color: #f2c32f;
+    font-stretch:expanded;
+}
+
+.corpo{
+    
+    margin-top:0px;
+    
+}
+
+.corpo h4{
+    
+    font-family: HEINEKEN;
+    
+}
+
+.d-inline-block{
+    
+    padding:2px;
+    
+}
+
+.fotos-destaque img{
+    
+    width:100%;
+    height:510px;
+}
+
+
+.corpo p {
+    
+    font-family: HEINEKEN;
+}
+
+.corpo h6{
+    
+    border-bottom: 1px dashed grey; 
+    text-align: center;
+    
+}
+
+.corpo a :link{
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+.corpo a :hover{
+    
+    color: #212529
+}
+
+.corpo a:visited{
+    
+    color: black;
+}
+
+.jumbotron{
+    
+   padding: 2rem 1rem;
+   margin-bottom: 2rem;
+   background-color: #e9ecef;
+   border-radius: .3rem;
+}
+
+.jumbotron a div span{
+    
+    color:black;
+}
+
+.jumbotron a div{
+    
+    padding: 10px;
+}
+
+.jumbotron h4{
+    
+    text-align: center;
+    font-family: renaissance;
+    font-size: xx-large;
+    
+}
+
+.jumbotron li{
+    
+    list-style-type: none;
+}
+
+footer{
+    
+    text-align: center;
+    background-color: #e9ecef;
+    padding: 10px 0px 10px 0px;
+    border-radius: .3rem;
+    
+}
+
+footer li{
+    
+    list-style-type: none;
+}
+
+.empurra{
+    
+    clear:both;
+}
+
+@media only screen and (min-width: 576px){
+    
+    .jumbotron li {
+        
+        width: 47%;
+        height: auto;
+        float: left;
+        margin-left: 3%;
+        
+    }
+
+}

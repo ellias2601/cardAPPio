@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/09/2018, 17:35:33
+    Author     : ellias
+*/
+
+@font-face{
+     
+    font-family: HEINEKEN;
+    src:url(HEINEKEN.TTF);
+}
+
+@font-face{
+     
+    font-family: renaissance;
+    src:url(renaissance.ttf);
+}
+
+.container form{
+    
+    height: 200px;
+    width: 100%;
+    padding: 30px;
+    
+    
+}
+
+.container label{
+    
+    color: #f2c32f;
+}
+
+.container h3{
+    
+    color:#f2c32f;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+

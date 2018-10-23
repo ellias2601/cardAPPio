@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/10/2018, 09:10:26
+    Author     : ellias
+*/
+
+*/*Formulario Autenticacao*/
+
+body{
+    background-image: url(https://www.solifemar.com/wp-content/uploads/2017/06/apartamentos_solifemar_castelldefels_restaurante_soli.jpg); /*caso a sua imagem de fundo se encontre no mesmo diretorio use apenas background-image:url(backg.jpg) */
+   
+    background-repeat: repeat; /*previne que a imagem se repita ao longo da pagina*/
+  
+}
+
+.formLogin{
+    
+    width: 30%;
+    margin-top: 15%;
+    height: 340px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.formLogin h2 {
+    
+    text-align: center;
+    font-size: medium;
+    padding:15px;
+}
+
+@media only screen and (max-width: 400px){
+    
+    .formLogin {
+        
+        width: 78%;
+        margin-top: 20%;
+        height: 370px;
+        background-color: white;
+        border-radius: 10px;
+        
+    }
+    
+}
+    
+.tabela {
+        
+   /*padding: 250px*/
+   margin-top: 250px;
+ 
+}
+    
+
+
+

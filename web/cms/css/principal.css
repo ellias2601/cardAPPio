@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/09/2018, 08:25:11
+    Author     : ellias
+*/
+
+/* CSS referente ao logo e mostraFornecedores */
+
+@font-face{
+     
+    font-family: HEINEKEN;
+    src:url(HEINEKEN.TTF);
+}
+
+@font-face{
+     
+    font-family: renaissance;
+    src:url(renaissance.ttf);
+}
+
+.logo{
+    
+    font-size: medium;
+    font-family: HEINEKEN;
+    border-radius: 30px 30px 30px 0px;
+    padding: 5px 10px;
+    border: 2px solid #d9082f;
+    background-color: #d9082f;
+    color: #f2c32f;
+}
+
+body{
+    
+    margin: 0px;
+    background-color: #5315201a;
+}
+
+.corpo{
+    
+    width: 90%;
+    text-align: justify;
+    margin-top:10px;
+}
+
+.corpo h3{
+    
+    font-size: medium;
+    font-family: renaissance;
+    color: #d9082f;
+    text-align: center;
+    padding: 10px;
+    font-size:80px;
+}
+
+.corpo h2{
+    
+    font-family: HEINEKEN;
+    font-size: medium;
+    text-decoration: none;
+    color: #d9082f;
+    background-color: transparent;
+    
+   
+    
+}
+
+ a{
+    
+    color: #d9082f;
+}
+
+th{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #d9082f;
+    color: white;
+}
+
+table{
+    
+    font-size:16x;
+    width: 100%;
+    display:table;
+    border-color: grey;
+}
+
+
+/* CSS referente ao formulario de inclusao de fornecedores'*/
+
+form h1{
+    
+    font-family: renaissance;
+    text-align:center;
+    padding: 10px;
+    color: #d9082f;
+    font-size: 80px;
+}
+
+.form-group label{
+    
+    font-family:HEINEKEN;
+    color: #d9082f;
+    
+
+}
+
+
+
+
